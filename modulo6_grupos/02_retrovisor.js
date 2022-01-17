@@ -17,8 +17,8 @@ console.log(texto1.match(/<(\w+)>.*<\/\1>/g)) //[ '<b>Destaque</b>', '<strong>Fo
 
 const texto2 = "Lentamente é mente muito lenta."
 console.log(texto2.match(/(lenta)(mente).*\2.*\1/gi)) //[ 'Lentamente é mente muito lenta' ]
-// /2 -> se referencia ao segundo grupo: (mente)
-// /1 -> se referencia ao primeiro grupo: (lenta)
+// \2 -> se referencia ao segundo grupo: (mente)
+// \1 -> se referencia ao primeiro grupo: (lenta)
 
 /*
     Nesse caso o grupo 1 se torna o (mente)
