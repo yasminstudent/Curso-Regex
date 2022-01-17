@@ -1,3 +1,3 @@
 //Acessando um ou outro elemento
 const texto = "Você precisa responder sim, não ou não sei!"
-console.log(texto.match(/sim|não|nao|sei/g))
+console.log(texto.match(/sim|não|sei/g))

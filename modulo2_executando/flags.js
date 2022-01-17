@@ -1,8 +1,8 @@
 /*
-    Flags:n
+    Flags:
     g - global: procura todos os trechos com o mesmo padrão, 
-            se não passar essa flag, 
-            a expressão irá pegar apenas o 1º registro do primeiro argumento
+            se não passar essa flag, a expressão irá pegar apenas 
+            o 1º registro do primeiro argumento da expressão
     i - pega letras maiúsculas e minúsculas (ignora o case)
 
     Exemplos:

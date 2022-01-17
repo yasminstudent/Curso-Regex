@@ -1,7 +1,7 @@
 const texto1 = "De longe eu avistei o fogo e uma pessoa gritando: FOGOOOOOOOO!"
 const texto2 = "There is a big fog in NYC"
 
-// + -> um ou mais ocorrências
+// + -> uma ou mais ocorrências
 const regex = /fogo+/gi //procure por fog e a letra o pode se repetir uma ou mais vezes
 console.log(texto1.match(regex)) // [ 'fogo', 'FOGOOOOOOOO' ]
 console.log(texto2.match(regex)) //null

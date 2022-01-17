@@ -5,5 +5,5 @@ const textoMultiLinhas = `
     Crase
 `
 
-//cuidado com o tab! (não usar no lugar do espaço)
+//cuidado com o tab! (aplicar ele em modo tab, não em espaço)
 console.log("	".match(/\s/g))

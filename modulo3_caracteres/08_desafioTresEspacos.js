@@ -1,4 +1,4 @@
-//Desafio: encontrar a letra a e a letra b e entre elas 3 espaços
+//Desafio: encontrar as letras a e b e entre elas 3 espaços
 const texto = "a   b"
 console.log(texto.match(/a\s\s\sb/))
 console.log(texto.match(/a   b/))

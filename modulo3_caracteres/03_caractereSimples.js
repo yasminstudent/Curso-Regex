@@ -3,8 +3,7 @@
     a a z
     A a Z
     0 a 9
-    textos ex: palavra1 palavra2
-    ,
+    textos, ex: palavra1 palavra2
     entre outros
 */
 
