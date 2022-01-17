@@ -7,4 +7,4 @@ console.log(texto.match(/[$-?]/g)) //isso é um intervalo
 
 console.log(texto.match(/[$\-?]/g)) //isso NÃO é um intervalo pois antes do hifen tem o escape
 
-// pode precisar do escape dentro do conjunto dependendo da situação: - [] ^
+// elementos que podem precisar do escape dentro do conjunto dependendo da situação: - [] ^

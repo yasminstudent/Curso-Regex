@@ -5,7 +5,7 @@ console.log(texto.match(/[^0-9]/g))
 console.log(texto.match(/[^\d]/g))
 
 console.log("")
-console.log(texto.match(/[^\d!?[\s,.]/g))
+console.log(texto.match(/[^\d!?[\s,.]/g)) //[ 'a', 'b', 'c', 'd', 'e', 'f' ]
 
 
 const texto2 = "1: !\"#$%&'()**,-./ 2: :;<=>?@"
