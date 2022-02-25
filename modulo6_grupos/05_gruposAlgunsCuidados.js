@@ -6,4 +6,5 @@ console.log(texto.match(/[(abc)]/gi)) //não é um grupo -> [ '(', 'a', ')', 'A'
 //mas dentro de um grupo pode existir um conjunto
 console.log(texto.match(/([abc])/gi)) //é um grupo -> [ 'a', 'A', 'B', 'C' ]
 
-console.log(texto.match(/(abc)/gi)) //[ 'ABC' ] -> esse grupo não é aconselhável (é inútil) 
+console.log(texto.match(/(abc)/gi)) //[ 'ABC' ] -> esse grupo não é aconselhável (é inútil)
+// a expressão poderia ser assim: /abc/gi

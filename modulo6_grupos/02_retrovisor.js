@@ -9,7 +9,7 @@ console.log(texto1.match(/<(\w+)>/g)) //[ '<b>', '<strong>', '<div>' ]
 /*
     usa-se o retrovisor para se referenciar a algo armazenado
 
-    para se referenciar a algo armazenado no primeiro grupo, usa-se: /1
+    para se referenciar a algo armazenado no primeiro grupo, usa-se: \1
     segundo grupo (caso tenha): /2 e etc
 */
 console.log(texto1.match(/<(\w+)>.*<\/\1>/g)) //[ '<b>Destaque</b>', '<strong>Forte</strong>', '<div>Conteudo</div>' ]

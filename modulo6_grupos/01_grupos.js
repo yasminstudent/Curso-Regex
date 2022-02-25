@@ -11,3 +11,9 @@ console.log(texto1.match(/(he)+/g))
 const texto2 = "http://www.site.info www.escola.ninja.br google.com.ag"
 console.log(texto2.match(/(http:\/\/)?(www\.)?\w+\.\w+\.?\w*\.?\w*/g))
 console.log(texto2.match(/(http:\/\/)?(www\.)?\w+\.\w{2,}(\.\w{2})?/g)) //resposta do professor
+
+/*
+    Observe que aplicamos o quantificador opcional (?) -> zero ou 1
+    Isso: (http:\/\/)?
+    Equivale a isso: h?t?t?p?:?\/?\/?   
+*/
